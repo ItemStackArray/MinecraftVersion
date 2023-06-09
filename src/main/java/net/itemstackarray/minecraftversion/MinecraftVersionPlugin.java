@@ -12,9 +12,4 @@ public final class MinecraftVersionPlugin extends JavaPlugin {
     @Getter
     private static MinecraftVersionPlugin INSTANCE;
 
-    @Override
-    public void onEnable() {
-        super.onEnable();
-    }
-
 }
