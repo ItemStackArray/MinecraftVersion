@@ -13,7 +13,8 @@ public enum MinecraftVersion {
     V1_16("v1_16"),
     V1_17("v1_17"),
     V1_18("v1_18"),
-    V1_19("v1_19");
+    V1_19("v1_19"),
+    V1_20("v1_20");
 
     static String version;
 
@@ -29,7 +30,7 @@ public enum MinecraftVersion {
                 return minecraftVersion;
         }
         // Return newest version because can't get version
-        return V1_19;
+        return V1_20;
     }
 
     public static MinecraftVersion GET() {
